@@ -1,14 +1,21 @@
 import React, { Fragment } from 'react';
 import { Header, Wrapper  } from './style';
+import Card from '../../components/Card';
+
 
 const Home = () => {
+  let Cards = [];
+
+  for(let i=0; i<4; i++) {
+  Cards.push(<Card key={i} />)
+  }
   return (
     <Fragment>
     <Header>
       <h2>Find Lorem ipsum dolor</h2>
     </Header>
     <Wrapper>
-    <h2>Cards</h2>
+    {Cards}
     </Wrapper>
     </Fragment>
   )

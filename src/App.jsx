@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Global from './styles/Global';
 import Banner from './components/Banner';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Banner/>
       <Home />
+      <Footer/>
       <Global />
       </div>
   )

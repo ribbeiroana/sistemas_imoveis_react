@@ -26,7 +26,7 @@ body {
   font-family: "Dosis", sans-serif;
 }
 
-ul {
+ul, nav {
   list-style-type: none;
 }
 
