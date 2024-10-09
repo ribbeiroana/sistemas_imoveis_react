@@ -1,6 +1,12 @@
 import React, { Fragment } from 'react';
 import { Container, Left, Thumb, Description, Right, Profile, ProfileImg, ProfileDescription, ProfileContact, ProfileFormContact } from './style';
 import TopBanner from '../../components/TopBanner';
+import Input from '../../components/Input';
+import Textarea from '../../components/Textarea';
+import Button from '../../components/Button';
+
+
+
 
 const Imobi = () => {
 
@@ -35,10 +41,14 @@ const Imobi = () => {
           <ProfileFormContact>
             <h3>Contate o anunciante</h3>
             <form>
-              <input type="text" placeholder="Nome:" />
-              <input type="text" placeholder="Email:" />
-              <textarea name="" id="" placeholder="Mensagem:" ></textarea>
-              <button>Enviar mensagem</button>
+              <Input placeholder="Nome:"/>
+              <Input placeholder="Email:" />
+              <Textarea placeholder="Mensagem:"/>
+              <Button>Enviar mensagem</Button>
+              {/* <input type="text" placeholder="Nome:" /> */}
+              {/* <input type="text" placeholder="Email:" /> */}
+              {/* <textarea name="" id="" placeholder="Mensagem:" ></textarea> */}
+              {/* <button>Enviar mensagem</button> */}
             </form>
           </ProfileFormContact>
         </Right>

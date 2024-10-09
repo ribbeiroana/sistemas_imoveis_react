@@ -1,16 +1,17 @@
 import React from 'react';
 import LogoFoto from '../../assets/logo.png'
 import { Container, Logo, Menu } from './style';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <Container>
        <Logo>
-        <img src={LogoFoto} alt="" />
+        <Link to='/'><img src={LogoFoto} alt="logo" /></Link> 
        </Logo>
        <Menu>
         <ul>
-          <li><span>Cadastro/Login</span></li>
+          <li><Link to="/login"><span>Cadastro/Login</span></Link></li>
         </ul>
        </Menu>
     </Container>
