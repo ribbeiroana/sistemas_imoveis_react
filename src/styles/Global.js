@@ -12,10 +12,11 @@ export default createGlobalStyle`
   --primary: #f7f9fc;
   --secondary: #15181c;
   --gray: #d9d9d9;
+  --gray-ligth: #e5e1dc;
   --blue: #4766ff;
   --white: #fff;
   --black: #000;
-  
+  --shade: #efefef;
 }
 
 body {
