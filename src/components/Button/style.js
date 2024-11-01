@@ -5,7 +5,7 @@ export const Container = styled.button`
     cursor: pointer;
     display: inline-block;
     text-align: center;
-    background-color: var(--blue);
+    background-color: var(--gray);
     line-height: 24px;
     border: 0;
     color: var(--white);

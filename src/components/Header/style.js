@@ -23,21 +23,29 @@ ul {
 display: flex;
 justify-content: center;
 align-items: center;
+text-decoration: none;
+list-style-type: none;
 }
+
 li {
   border: 1px solid var(--gray);
   background-color: var(--blue);
-  color: var(--primary);
+  color: var(--white);
   border-radius: 10px;
   padding: 10px;
+
   span {
     font-size: 1.2rem;
     font-weight: 300;
+    color: var(--white);
   }
+  
   &:hover {
     background-color: var(--gray);
-    color: var(--black);
     cursor: pointer;
+    span {
+      color: var(--black);
+    }
   }
 }
 `

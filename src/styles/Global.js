@@ -22,9 +22,7 @@ export default createGlobalStyle`
 body {
   background-color: var(--primary);
   color: var(--secondary);
-  font-size: 1.2rem;
-  font-weight: 400;
-  font-family: "Dosis", sans-serif;
+  font-family: "Poppins", serif;
 }
 
 ul, nav {
